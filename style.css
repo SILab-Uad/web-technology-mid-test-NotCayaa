@@ -4,24 +4,41 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #e0e7ff; /* Background color */
+    background-image: url('Assets/furinaa.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
 }
 
 .container {
     text-align: center;
-    padding: 30px;
-    background-color: #ffffff; /* Background color for container */
-    border-radius: 15px;
+    padding: 50px;
+    background-color: #d3bb31; /* Background color for container */
+    border-radius: 100px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     width: 90%;
-    max-width: 400px;
+    height: 90%;
+    max-width: 250px;
+    max-height: 370px;
 }
 
 /* TODO: Add styles for labels, inputs, buttons, and output text */
 h1 {
     font-size: 2.2em;
     margin-bottom: 20px;
-    color: #4a4a4a; /* Header color */
+    color: #000000; /* Header color */
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #000000; /* Header color */
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #000000; /* Header color */
 }
 
 /* Add more styles here as needed */
